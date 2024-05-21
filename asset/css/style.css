@@ -90,7 +90,7 @@ background-color: chocolate;
 }
 
 #reviews {
-    background-color: var(--coral);
+    background-color: var(--white);
 }
 
 .testimonials {
@@ -111,6 +111,7 @@ background-color: chocolate;
 .faq-section {
     max-width: 800px;
     margin: auto;
+    background-color: #f176e7;
   }
 
   .faq-item {
@@ -147,7 +148,7 @@ background-color: chocolate;
   }
 
   .accordion-button:not(.collapsed) {
-    color: indianred;
+    color:#f39b60;
   }
 
   /* Hover effect for FAQ questions */
