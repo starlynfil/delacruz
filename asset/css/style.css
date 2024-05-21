@@ -119,14 +119,14 @@ background-color: chocolate;
   }
 
   .faq-question {
-    background-color: #f8f9fa;
+    background-color: #f8ad70;
     border: none;
-    border-bottom: 1px solid #dee2e6;
+    border-bottom: 1px solid #f87b9a;
     border-radius: 0;
     padding: 15px;
     font-size: 18px;
     font-weight: 500;
-    color: #343a40;
+    color: #f7816c;
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s; /* Add transition for smooth hover effect */
   }
@@ -135,7 +135,7 @@ background-color: chocolate;
     border-left: 3px solid var(--brand);
     padding: 10px 15px;
     margin-left: 0;
-    background-color: #f8f9fa;
+    background-color: #f57692;
   }
 
   .faq-answer p {
@@ -147,12 +147,12 @@ background-color: chocolate;
   }
 
   .accordion-button:not(.collapsed) {
-    color: var(--bg1);
+    color: indianred;
   }
 
   /* Hover effect for FAQ questions */
   .faq-question:hover {
-    background-color: var(--brand); /* Change background color on hover */
+    background-color: #f57692; /* Change background color on hover */
     color: var(--bg1); /* Change text color on hover */
   }
 
@@ -173,28 +173,28 @@ background-color: chocolate;
   #footer {
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: var(--bg1);
+    background-color: coral;
 }
 
 #footer ul.list-unstyled li a {
-    color: #ffffff;
+    color: #f89797;
 }
 
 #footer ul.list-unstyled li:hover a {
-    color: var(--brand) ;
+    color: chocolate;
 }
 
 #reviews h2, #services h2 {
-    color: var(--bg1);
+    color: #f89797;
 }
 
 .btn-outline-light {
-    border-color: #F2B03B !important;
-    color: #F2B03B;
+    border-color: #f39b60 !important;
+    color: #f176e7;
 }
 
 #footer h5 {
-    color: var(--brand);
+    color:#f8bcf3;
     margin-bottom: 15px;
 }
 
