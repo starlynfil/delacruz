@@ -90,7 +90,7 @@ background-color: chocolate;
 }
 
 #reviews {
-    background-color: var(--white);
+    background-color:#ff52f1;
 }
 
 .testimonials {
@@ -108,10 +108,13 @@ background-color: chocolate;
     color: var(--brand);
 }
 
+#faq-section {
+background-color: #f39b60;
+}
+
 .faq-section {
     max-width: 800px;
     margin: auto;
-    background-color: #f176e7;
   }
 
   .faq-item {
