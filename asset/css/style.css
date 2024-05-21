@@ -1,0 +1,110 @@
+:root{
+    --bg1: burlywood;
+    --bg2: rgb(255 ,132 ,0);
+    --body: rgb(95, 86, 86);
+    --brand: #bfbfbf;
+    --white: rgb(235, 235 235);
+    --p: rgb(161, 150, 150);
+}
+
+
+#banner {
+    min-height: 100vh;
+    background: linear-gradient(to right, hsla(0, 2%, 17%, 0.856), rgba(44, 42, 42, 0.315)), url('https://img.freepik.com/free-photo/beautiful-sunset-lake-with-greenery-coast-amazing-cloudy-sky_181624-3746.jpg?t=st=1711415289~exp=1711418889~hmac=9265ac9632e6fe6466c98b0510fb03d18a57967b108279df3be3771ffa523cde&w=360');
+    background-size: cover;
+    
+}
+.btn{
+    padding: 15px 30px;
+    transition: all 0.4s ease;
+    font-weight: 800;
+    border-radius: 0;
+}
+
+.btn-brand{
+    background-color: rgb(255, 132, 0);
+}
+
+.btn-brand-hover{
+    background-color: transparent;
+    color: rgb(146, 127, 255);
+    border-color: rgb(42, 165, 132);
+}
+
+section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#services{
+    background-color: coral;
+}
+#about{
+background-color: chocolate;
+}
+
+#reviews{
+    background-color: indianred;
+}
+*{
+    font-family: cursive;
+}
+
+.icon-img-box{
+    width: 40%;
+    
+}
+
+.card{
+    transition: background-color 0.3s, 0.3s;
+    
+}
+
+.card:hover{
+    background-color: burlywood;
+}
+
+.card:hover .card-title,
+.card:hover .card-text,
+.card:hover .btn{
+    color: brown;
+}
+
+.btn-outlined-brand{
+    color: chocolate;
+    background-color: rgb(243, 166, 72);
+    border-color: rgb(219, 15, 32);
+}
+
+.btn-outlined-brand:hover{
+    background-color: coral;
+}
+
+#cta{
+    background: linear-gradient(to right, hsla(0, 2%, 17%, 0.856), rgba(44, 42, 42, 0.315)), url('https://img.freepik.com/free-photo/beautiful-sunset-lake-with-greenery-coast-amazing-cloudy-sky_181624-3746.jpg?t=st=1711415289~exp=1711418889~hmac=9265ac9632e6fe6466c98b0510fb03d18a57967b108279df3be3771ffa523cde&w=360');
+    min-height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#reviews {
+    background-color: var(--white);
+}
+
+.testimonials {
+    background-color: var(--bg2);
+    padding: 30px;
+}
+
+.testimonials img {
+    width: 65px;
+    border-radius: 100px;
+    height: 65px;
+}
+
+#reviews a {
+    color: var(--brand);
+}
+    
