@@ -90,7 +90,7 @@ background-color: chocolate;
 }
 
 #reviews {
-    background-color:rgb(245, 147, 77)
+    background-color:chocolate
 }
 
 .testimonials {
@@ -106,6 +106,5 @@ background-color: chocolate;
 
 #reviews a {
     color: var(--brand);
-    background-color: chocolate;
 }
     
