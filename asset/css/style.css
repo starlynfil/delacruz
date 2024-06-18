@@ -105,6 +105,7 @@ background-color: chocolate;
 }
 
 #reviews a {
-    color: chocolate;
+    color: var(--brand);
+    background-color: chocolate;
 }
     
